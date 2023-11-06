@@ -53,18 +53,18 @@ main {
 
 .topline {
     display: flex;
-    margin: 0px 20px 0px 50px;
+    margin: 0px 20px 0px 30px;
 }
 
 .lineleft {
     border-top: 1.5px solid black;
-    width: 105px;
+    width: 140px;
     margin-top: 3px;
 }
 
 .lineright {
     border-top: 1.5px solid black;
-    width: 105px;
+    width: 145px;
     margin-top: 3px;
 }
 
@@ -99,7 +99,7 @@ article {
 h1 {
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
-    margin: 0px 20px 0px 85px;
+    margin: 0px 20px 0px 125px;
     padding-top: 10px;
     padding-right: 0px;
 }
@@ -175,12 +175,13 @@ p{
     margin: 0px 0px 5px 5px;
 }
 
-.idee p a {
+.idee a {
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
     font-size: 1.3em;
     color: #C1272D;
     text-decoration: none;
+    margin: 0px 0px 5px 5px;
 }
 
 .idee img {
@@ -193,6 +194,106 @@ p{
     border: 0px;
     margin: 0px;
 }
+
+/*AANMELDEN*/
+
+.topline2 {
+    display: flex;
+    margin: 0px 20px 0px 60px;
+}
+
+.topline2 img {
+    border: 0px;
+    max-width: 10%;
+    height:auto;
+    margin: 0px 2px 0px 2px;
+}
+
+.index h2 {
+    font-family: "mamablock-210", sans-serif;
+    font-weight: 100;
+    margin: 20px 85px 0px 120px;
+    padding-top: 10px;
+    padding-right: 0px;
+    font-size: 1.1em;
+}
+
+.index p{
+    margin: 10px 20px 0px 20px;
+}
+
+.lineleft2 {
+    border-top: 1.5px solid black;
+    width: 100px;
+    margin-top: 3px;
+}
+
+.lineright2 {
+    border-top: 1.5px solid black;
+    width: 100px;
+    margin-top: 3px;
+}
+
+form {
+    display: block;
+    margin: 0;
+    width: 40vh;
+    margin-left: 8vw;
+}
+
+.form1 {
+    display: flex;
+    margin: 10px 40px 0px 0px;
+    width: 80%;
+}
+
+.form2 {
+    margin: 5px 40px 0px 0px;
+    width: 80%;
+}
+
+.form2 input {
+    width: 277px;
+    border: 1.3px solid black;
+    border-radius: 7px;
+}
+
+.form3 {
+    display: flex;
+    margin: 10px 30px 0px 0px;
+    width: 80%;
+}
+
+.formulier {
+    display: flex;
+    margin-right: 5px;
+    width: 50%;
+}
+
+.formulier2 {
+    display: flex;
+}
+
+.formulier input{
+    width: 130px;
+    border: 1.3px solid black;
+    border-radius: 7px;
+}
+
+.formulier2 input{
+    width: 130px;
+    border: 1.3px solid black;
+    border-radius: 7px;
+}
+
+.signupbutton {
+    margin: 0em 0em 0em 3em;
+}
+
+.signupbutton a{
+    
+}
+
 
 /*FOOTER*/
 
@@ -210,7 +311,7 @@ footer {
 }
 
 footer img {
-    max-width: auto;
+    width: auto;
     height:auto;
     margin: 0px 10px 0px 2px;
 }
@@ -227,6 +328,12 @@ footer ul {
 }
 
 footer h2 {
+    font-size: 0.6em;
+    color: #C1272D;
+    margin:1em 0em 0em 0.2em;
+}
+
+footer h3 {
     font-size: 0.6em;
     color: #C1272D;
     margin:1em 0em 0em 0.2em;
