@@ -41,6 +41,8 @@ main {
     display: flex;
 }
 
+/*INDEX*/
+
 .index img {
     max-width: 85%;
     height:auto;
@@ -52,7 +54,7 @@ main {
 
 .topline {
     display: flex;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 50px;
 }
 
 .lineleft {
@@ -90,16 +92,18 @@ article {
 
 .toptijdlijn {
     display:flex;
+    border-right: 1.8px solid black;
+    border-bottom-right-radius: 5%;
+    margin-right: 30px;
 }
 
 h1 {
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
     font-style: normal;
-    margin: 20px 10px 0px 84.9px;
-    border-right: 1.5px solid black;
-    border-bottom-right-radius: 10%;
-    padding-right: 40px;
+    margin: 0px 20px 0px 85px;
+    padding-top: 10px;
+    padding-right: 0px;
 }
 
 .linestraight2{
@@ -130,6 +134,7 @@ p{
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     margin: 0px 20px 0px 20px;
+    padding-bottom: 20px;
 }
 
 .imgleft {
@@ -139,6 +144,19 @@ p{
     border-bottom-right-radius: 10%;
     margin: 0px 20px 0px 20px;
 }
+
+/*IDEEENFORUM*/
+
+.forum {
+    display:flex;
+    margin: 10px;
+}
+
+.idee {
+    display: block;
+}
+
+/*FOOTER*/
 
 footer {
     background-color: #F2F2F2;
