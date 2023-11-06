@@ -3,7 +3,6 @@ body {
     margin: 0vh;
     font-family: "mamablock-210", sans-serif;
     font-weight: 400;
-    font-style: normal;
 }
 
 header {
@@ -100,7 +99,6 @@ article {
 h1 {
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
-    font-style: normal;
     margin: 0px 20px 0px 85px;
     padding-top: 10px;
     padding-right: 0px;
@@ -112,7 +110,14 @@ h1 {
     margin: 0px 50px 0px 50px;
 }
 
-section img {
+.imgright img {
+    width: auto;
+    height: 13em;
+    margin: 20px 10px 20px 10px;
+    border: 2px solid black;
+}
+
+.imgleft img {
     width: auto;
     height: 13em;
     margin: 20px 10px 20px 10px;
@@ -124,7 +129,6 @@ p{
     font-family: "abril-display", serif;
     font-weight: 800;
     font-style:normal;
-    text-align:left;
     margin: 20px 5px 0px 10px;;
 }
 
@@ -149,11 +153,45 @@ p{
 
 .forum {
     display:flex;
-    margin: 10px;
+    margin: 10px 0px 10px 20px;
+    align-items: center;
 }
 
 .idee {
     display: block;
+    font-size: 0.8em;
+    font-family: "abril-display", serif;
+    font-weight: 800;
+    font-style:normal;
+    margin-right: 5px;
+}
+
+.idee img {
+    margin-bottom: 5px;
+    margin-right: 0px;
+}
+
+.idee p {
+    margin: 0px 0px 5px 5px;
+}
+
+.idee p a {
+    font-family: "mamablock-210", sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+    color: #C1272D;
+    text-decoration: none;
+}
+
+.idee img {
+    max-width: 85%;
+    height:auto;
+    margin: 0.5em 0.3em 1em 0em;
+}
+
+.streep img {
+    border: 0px;
+    margin: 0px;
 }
 
 /*FOOTER*/
@@ -168,7 +206,7 @@ footer {
     left: 0; 
     right: 0;
     z-index: 10;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer img {
@@ -177,16 +215,21 @@ footer img {
     margin: 0px 10px 0px 2px;
 }
 
+.footertext {
+    display: block;
+}
+
 footer ul {
     list-style: none;
     font-size: 0.5em;
-    margin: 1em 1em 0em 0.3em;
-    padding: 0.5em 0.4em 0em 0.3em;
+    margin: 0em 1em 0em 0.3em;
+    padding: 0.5em 0.4em 0em 0em;
 }
 
-.footertitle {
-    font-size: 1.3em;
+footer h2 {
+    font-size: 0.6em;
     color: #C1272D;
+    margin:1em 0em 0em 0.2em;
 }
 
 footer li a {
