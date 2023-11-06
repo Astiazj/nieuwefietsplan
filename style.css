@@ -96,31 +96,22 @@ h1 {
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
     font-style: normal;
-    margin: 20px 50px 10px 60px;
-}
-
-.lineright2{
+    margin: 20px 10px 0px 84.9px;
     border-right: 1.5px solid black;
-    margin-right: 0px;
-    height: 40px;
+    border-bottom-right-radius: 10%;
+    padding-right: 40px;
 }
 
 .linestraight2{
-    border-top: 1.3px solid black;
-    width: 200px;
-    margin: 0px 20px 0px 100px;
-}
-
-.lineleft2 {
-    border-left: 1.5px solid black;
-    margin: 0px 20px 0px 10px;
-    height: 120px;
+    border-top: 0.2px solid black;
+    width: 280px;
+    margin: 0px 50px 0px 50px;
 }
 
 section img {
     width: auto;
-    height: 10em;
-    margin: 20px;
+    height: 13em;
+    margin: 20px 10px 20px 10px;
     border: 2px solid black;
 }
 
@@ -130,8 +121,24 @@ p{
     font-weight: 800;
     font-style:normal;
     text-align:left;
+    margin: 20px 5px 0px 10px;;
 }
 
+.imgright {
+    display: flex;
+    border-left: 2px solid black;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin: 0px 20px 0px 20px;
+}
+
+.imgleft {
+    display: flex;
+    border-right: 2px solid black;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin: 0px 20px 0px 20px;
+}
 
 footer {
     background-color: #F2F2F2;
