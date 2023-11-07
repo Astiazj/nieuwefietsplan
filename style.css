@@ -210,17 +210,30 @@ p{
     margin: 0px 2px 0px 2px;
 }
 
+.index h1 {
+    font-size: 2em;
+    margin-left: 3.5em;
+}
+
 .index h2 {
     font-family: "mamablock-210", sans-serif;
     font-weight: 100;
     margin: 10px 85px 0px 120px;
     padding-top: 10px;
     padding-right: 0px;
-    font-size: 1.1em;
+    font-size: 1.4em;
+}
+
+.title2 {
+    padding-left: 23px;
+    font-size: 1.2em;
 }
 
 .index p{
     margin: 10px 20px 0px 20px;
+    font-size: 1.2em;
+    padding: 0.5em 0.7em 0.5em 0.7em;
+    text-align: center;
 }
 
 .lineleft2 {
@@ -257,12 +270,14 @@ form {
     width: 277px;
     border: 1.3px solid black;
     border-radius: 7px;
+    font-size: 1.3em;
 }
 
 .form3 {
     display: flex;
     margin: 10px 30px 0px 0px;
     width: 80%;
+    font-size: 1.3em;
 }
 
 .form4 {
@@ -307,17 +322,17 @@ form {
 .signupbutton a{
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
-    font-size: 1em;
+    font-size: 2em;
     color: #C1272D;
     text-decoration: none;
-    margin-left: 8em;
+    margin-left: 3em;
     margin-top: 10px;
     padding-top: 10px;
 }
 
 .signupbutton img {
     border: 0px;
-    margin: 0em 0em 0em 4.3em;
+    margin: 0em 0em 1em 4.3em;
 }
 
 .signupbutton2 {
@@ -327,10 +342,10 @@ form {
 .signupbutton2 a{
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
-    font-size: 1em;
+    font-size: 2em;
     color: #C1272D;
     text-decoration: none;
-    margin-left: 7.3em;
+    margin-left: 3em;
     margin-top: 10px;
     padding-top: 10px;
 }
@@ -339,11 +354,6 @@ form {
     border: 0px;
     margin: 0em 0em 0em 3.5em;
 }
-
-
-
-
-
 
 /*FOOTER*/
 
