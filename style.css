@@ -33,7 +33,7 @@ header img {
 .line2 {
     border-right: 1.5px solid black;
     margin-right: 30px;
-    height:700px;
+    height:670px;
 }
 
 .line2aanmeld {
@@ -45,11 +45,12 @@ header img {
 .line2idee {
     border-right: 1.5px solid black;
     margin-right: 30px;
-    height: 1500px;
+    height: 1850px;
 }
 
 main {
     display: flex;
+    margin-bottom: 50px;
 }
 
 /*INDEX*/
@@ -108,6 +109,7 @@ article {
 
 .tijdlijn {
     display: block;
+    margin-bottom:60px;
 }
 
 .toptijdlijn {
@@ -134,24 +136,26 @@ h1 {
 
 .imgright img {
     width: auto;
-    height: 13em;
-    margin: 20px 10px 20px 10px;
+    height: 12em;
+    margin: 20px 10px 5px 10px;
     border: 2px solid black;
 }
 
 .imgleft img {
     width: auto;
-    height: 16em;
+    height: 12em;
     margin: 20px 10px 20px 10px;
     border: 2px solid black;
+    padding-top: 10px;
 }
 
 .imgright p{
-    font-size: 1.05em;
+    font-size: 1em;
     font-family: "abril-display", serif;
     font-weight: 300;
     font-style:normal;
     margin: 20px 5px 0px 10px;;
+    text-align:right;
 }
 
 .imgleft p{
@@ -159,7 +163,15 @@ h1 {
     font-family: "abril-display", serif;
     font-weight: 300;
     font-style:normal;
-    margin: 20px 5px 0px 10px;;
+    margin: 20px 10px 10px 5px;
+}
+
+.imgright h2{
+    font-size: 1.05em;
+    font-family: "abril-display", serif;
+    font-weight: 300;
+    font-style:normal;
+    margin: 20px 5px 0px 10px;
 }
 
 .imgright {
@@ -267,6 +279,7 @@ h1 {
     font-size: 1.2em;
     padding: 0.5em 0.7em 0.5em 0.7em;
     text-align: center;
+    font-family: "abril-display", serif;
 }
 
 .lineleft2 {
@@ -422,7 +435,7 @@ footer li {
 footer li img {
     max-height: 7vh;
     width: auto;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 footer li p {
