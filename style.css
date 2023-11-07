@@ -39,13 +39,13 @@ header img {
 .line2aanmeld {
     border-right: 1.5px solid black;
     margin-right: 30px;
-    height: 925px;
+    height: 900px;
 }
 
 .line2idee {
     border-right: 1.5px solid black;
     margin-right: 30px;
-    height: 1850px;
+    height: 1740px;
 }
 
 main {
@@ -213,7 +213,7 @@ h1 {
     display: flex;
     padding: 0.8em;
     padding-bottom: 0em;
-    text-align: center;
+    text-align:center;
 }
 
 .idee a {
@@ -270,7 +270,7 @@ h1 {
 }
 
 .title2 {
-    padding-left: 23px;
+    padding-left: 20px;
     font-size: 1.2em;
 }
 
@@ -338,21 +338,9 @@ form {
     height: 50px;
 }
 
-.formulier {
-    display: flex;
-    margin-right: 5px;
-    width: 50%;
-}
-
 .formulier2 {
     display: flex;
     margin-bottom: 0.7em;
-}
-
-.formulier input{
-    width: 130px;
-    border: 1.3px solid black;
-    border-radius: 7px;
 }
 
 .formulier2 input{
