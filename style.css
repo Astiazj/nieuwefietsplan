@@ -33,7 +33,19 @@ header img {
 .line2 {
     border-right: 1.5px solid black;
     margin-right: 30px;
-    height: 300px;
+    height:700px;
+}
+
+.line2aanmeld {
+    border-right: 1.5px solid black;
+    margin-right: 30px;
+    height: 925px;
+}
+
+.line2idee {
+    border-right: 1.5px solid black;
+    margin-right: 30px;
+    height: 1500px;
 }
 
 main {
@@ -77,6 +89,15 @@ main {
 
 article {
     margin: 1em;
+    font-size: 1.4em;
+    font-family: "abril-display", serif;
+    font-weight: 800;
+    font-style:normal;
+    text-align: left;
+}
+
+.main p{
+    margin: 1em;
     font-size: 0.8em;
     font-family: "abril-display", serif;
     font-weight: 800;
@@ -99,9 +120,10 @@ article {
 h1 {
     font-family: "mamablock-210", sans-serif;
     font-weight: 200;
-    margin: 0px 20px 0px 125px;
+    margin: 0px 20px 0px 70px;
     padding-top: 10px;
     padding-right: 0px;
+    font-size: 1.6em;
 }
 
 .linestraight2{
@@ -119,15 +141,23 @@ h1 {
 
 .imgleft img {
     width: auto;
-    height: 13em;
+    height: 16em;
     margin: 20px 10px 20px 10px;
     border: 2px solid black;
 }
 
-p{
-    font-size: 0.8em;
+.imgright p{
+    font-size: 1.05em;
     font-family: "abril-display", serif;
-    font-weight: 800;
+    font-weight: 300;
+    font-style:normal;
+    margin: 20px 5px 0px 10px;;
+}
+
+.imgleft p{
+    font-size: 1.05em;
+    font-family: "abril-display", serif;
+    font-weight: 300;
     font-style:normal;
     margin: 20px 5px 0px 10px;;
 }
@@ -152,28 +182,26 @@ p{
 
 /*IDEEENFORUM*/
 
-.forum {
-    display:flex;
-    margin: 10px 0px 10px 20px;
-    align-items: center;
+.ideeforum h1 {
+    margin-left: 4em;
+    font-size: 1.7em;
 }
 
 .idee {
-    display: block;
-    font-size: 0.8em;
+    font-size: 1.5em;
     font-family: "abril-display", serif;
     font-weight: 800;
     font-style:normal;
-    margin-right: 5px;
-}
-
-.idee img {
-    margin-bottom: 5px;
-    margin-right: 0px;
+    margin: 20px;
 }
 
 .idee p {
     margin: 0px 0px 5px 5px;
+    justify-content: center;
+    display: flex;
+    padding: 0.8em;
+    padding-bottom: 0em;
+    text-align: center;
 }
 
 .idee a {
@@ -183,17 +211,22 @@ p{
     color: #C1272D;
     text-decoration: none;
     margin: 0px 0px 5px 5px;
+    justify-content: center;
+    display: flex;
 }
 
 .idee img {
     max-width: 85%;
     height:auto;
-    margin: 0.5em 0.3em 1em 0em;
+    margin: 0 auto;
+    border: 3px solid black;
+    justify-content: center;
+    display: flex;
 }
 
 .streep img {
     border: 0px;
-    margin: 0px;
+    margin-left: 2.3em;
 }
 
 /*AANMELDEN*/
@@ -210,12 +243,12 @@ p{
     margin: 0px 2px 0px 2px;
 }
 
-.index h1 {
+.aanmeldscherm h1 {
     font-size: 2em;
     margin-left: 3.5em;
 }
 
-.index h2 {
+.aanmeldscherm h2 {
     font-family: "mamablock-210", sans-serif;
     font-weight: 100;
     margin: 10px 85px 0px 120px;
@@ -229,7 +262,7 @@ p{
     font-size: 1.2em;
 }
 
-.index p{
+.aanmeldscherm p{
     margin: 10px 20px 0px 20px;
     font-size: 1.2em;
     padding: 0.5em 0.7em 0.5em 0.7em;
@@ -389,6 +422,7 @@ footer li {
 footer li img {
     max-height: 7vh;
     width: auto;
+    padding-right: 40px;
 }
 
 footer li p {
