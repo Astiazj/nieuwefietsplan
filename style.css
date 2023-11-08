@@ -45,7 +45,7 @@ header img {
 .line2idee {
     border-right: 1.5px solid black;
     margin-right: 30px;
-    height: 1740px;
+    height: 1778px;
 }
 
 main {
@@ -204,7 +204,7 @@ h1 {
     font-family: "abril-display", serif;
     font-weight: 800;
     font-style:normal;
-    margin: 20px;
+    margin: 20px 20px 40px 20px;
 }
 
 .idee p {
