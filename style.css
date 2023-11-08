@@ -45,15 +45,18 @@ header img {
 .line2idee {
     border-right: 1.5px solid black;
     margin-right: 30px;
-    height: 1778px;
+    height: 1770px;
 }
 
 main {
     display: flex;
-    margin-bottom: 50px;
 }
 
 /*INDEX*/
+
+.index {
+    margin-bottom: 50px;
+}
 
 .index img {
     max-width: 85%;
@@ -193,6 +196,10 @@ h1 {
 }
 
 /*IDEEENFORUM*/
+
+.ideeforum{
+    margin-bottom: 40px;
+}
 
 .ideeforum h1 {
     margin-left: 4em;
