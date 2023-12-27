@@ -211,8 +211,8 @@ h1 {
 
 .ideeforum h1 {
     padding-top: 0.5em;
-    margin-left: 4em;
-    font-size: 1.7em;
+    margin-left: 3em;
+    font-size: 2em;
 }
 
 .idee {
@@ -220,7 +220,7 @@ h1 {
     font-family: "abril-display", serif;
     font-weight: 800;
     font-style:normal;
-    margin: 1.5em 0em 0em 0em;
+    margin: 1em 0em 0em 0em;
 }
 
 .idee p {
@@ -249,6 +249,13 @@ h1 {
     border: 0.1em solid black;
     justify-content: center;
     display: flex;
+}
+
+.idee h2 {
+    font-family: "mamablock-210", sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0em;
 }
 
 .streep img {
@@ -299,142 +306,29 @@ h1 {
     margin-left: 4em;
 }
 
-/*AANMELDEN*/
-
-.aanmeldscherm {
-    display: block;
-}
-
 .topline2 {
     display: flex;
-    margin: 0px 20px 0px 60px;
+    margin: 0em 0em 0em 3.3em;
 }
 
 .topline2 img {
-    border: 0px;
+    border: 0em;
     max-width: 10%;
     height:auto;
-    margin: 0px 2px 0px 2px;
-}
-
-.aanmeldscherm h1 {
-    font-size: 2em;
-    margin-left: 3.5em;
-}
-
-.aanmeldscherm h2 {
-    font-family: "mamablock-210", sans-serif;
-    font-weight: 100;
-    margin: 10px 85px 0px 120px;
-    padding-top: 10px;
-    padding-right: 0px;
-    font-size: 1.4em;
-}
-
-.title2 {
-    padding-left: 20px;
-    font-size: 1.2em;
-}
-
-.aanmeldscherm p{
-    margin: 10px 20px 0px 20px;
-    font-size: 1.2em;
-    padding: 0.5em 0.7em 0.5em 0.7em;
-    text-align: center;
-    font-family: "abril-display", serif;
+    margin: 0em 0.2em 0em 0.2em;
 }
 
 .lineleft2 {
-    border-top: 1.5px solid black;
-    width: 100px;
-    margin-top: 3px;
+    border-top: 0.1em solid black;
+    margin-top: 0.2em;
+    width: 6em;
 }
 
 .lineright2 {
-    border-top: 1.5px solid black;
-    width: 100px;
-    margin-top: 3px;
+    border-top: 0.1em solid black;
+    margin-top: 0.2em;
+    width: 6em;
 }
-
-form {
-    display: block;
-    margin: 0;
-    width: 40vh;
-    margin-left: 8vw;
-}
-
-.form1 {
-    display: flex;
-    margin: 10px 40px 0px 0px;
-    width: 80%;
-}
-
-.form2 {
-    margin: 5px 40px 0px 0px;
-    width: 80%;
-}
-
-.form2 input {
-    width: 277px;
-    border: 1.3px solid black;
-    border-radius: 7px;
-    font-size: 1.3em;
-}
-
-.form3 {
-    display: block;
-    margin: 10px 30px 0px 0px;
-    width: 80%;
-}
-
-.form3 label {
-    font-size: 1em;
-}
-
-.form4 {
-    margin-top: 0.3em;
-    width: 80%;
-}
-
-.form4 input {
-    width: 277px;
-    border: 1.3px solid black;
-    border-radius: 7px;
-    height: 50px;
-}
-
-.formulier2 {
-    display: flex;
-    margin-bottom: 0.7em;
-}
-
-.formulier2 input{
-    width: 130px;
-    border: 1.3px solid black;
-    border-radius: 7px;
-}
-
-.signupbutton {
-    margin-top: 20px;
-}
-
-.signupbutton a{
-    font-family: "mamablock-210", sans-serif;
-    font-weight: 200;
-    font-size: 2em;
-    color: #C1272D;
-    text-decoration: none;
-    margin-left: 3em;
-    margin-top: 10px;
-    padding-top: 10px;
-}
-
-.signupbutton img {
-    border: 0px;
-    margin: 0em 0em 1em 4.3em;
-}
-
-
 
 /*FOOTER*/
 
@@ -452,7 +346,7 @@ footer {
 }
 
 footer nav {
-    width: 100vh;;
+    width: 100vh;
 }
 
 footer ul {
@@ -460,7 +354,7 @@ footer ul {
     margin-top: 0;
     max-width: 100vh;
     justify-content: space-evenly;
-    padding: 5px 10px 10px 10px;
+    padding: 0.3em 0em 0.2em 2em;
 }
 
 footer li {
@@ -470,7 +364,6 @@ footer li {
 footer li img {
     max-height: 7vh;
     width: auto;
-    margin-right: 40px;
 }
 
 footer li p {
