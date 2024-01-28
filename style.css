@@ -71,7 +71,16 @@ main {
     margin: 0em 0.2em 0em 0.2em;
 }
 
-.homeMain p {
+article {
+    margin: 1em;
+    font-size: 1.4em;
+    font-family: "abril-display", serif;
+    font-weight: 800;
+    font-style:normal;
+    text-align: left;
+}
+
+.hometext {
     margin: 1em;
     font-size: 1.4em;
     font-family: "abril-display", serif;
