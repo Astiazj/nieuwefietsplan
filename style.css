@@ -41,6 +41,7 @@ main {
     display: block;
     border-right: 0.1em solid black;
     margin-right: 2em;
+    margin-bottom: 1em;
 }
 
 .homeMain img {
